@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Raspberry.System</id>
-    <version>0.0.0</version>
-    <title>Raspberry.System</title>
-    <authors>Eric Bézine</authors>
+    <id>Raspberry.System.3B</id>
+    <version>2.1.1</version>
+    <title>Raspberry.System with RPi 3B support</title>
+    <authors>Eric Bézine and Josi Coder</authors>
     <owners>Raspberry-Sharp</owners>
     <licenseUrl>http://opensource.org/licenses/GPL-2.0</licenseUrl>
     <projectUrl>https://github.com/raspberry-sharp/raspberry-sharp-system/wiki</projectUrl>
@@ -15,6 +15,8 @@
 
       It is an initiative of the Raspberry# Community, aimed at providing tools and information concerning use of Raspberry Pi boards with Mono/.NET framework.
       Visit project [Github site](https://github.com/raspberry-sharp/raspberry-sharp-system/) for documentation and samples.
+      
+      With respect to the original Raspberry.System package, this one containes support for the Bcm2835 CPU of Raspberry 3B. See pull request #90 for more details.
     </description>
     <summary>Raspberry.System is a Mono/.NET assembly providing access to Raspberry Pi system features.</summary>
     <language>en-US</language>
@@ -25,9 +27,9 @@
     </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="Raspberry.System\bin\release\Raspberry.System.dll" target="lib\net40" />
-    <file src="Raspberry.System\bin\release\Raspberry.System.pdb" target="lib\net40" />
-    <file src="Raspberry.System\bin\release\Raspberry.System.xml" target="lib\net40" />
-    <file src="Raspberry.System\**\*.cs" target="src" />
+    <file src="Raspberry.System/bin/Release/Raspberry.System.dll" target="lib/net40" />
+    <file src="Raspberry.System/bin/Release/Raspberry.System.dll.mdb" target="lib/net40" />
+    <file src="Raspberry.System/bin/Release/Raspberry.System.xml" target="lib/net40" />
+    <file src="Raspberry.System/**/*.cs" target="src" />
   </files>
 </package>
